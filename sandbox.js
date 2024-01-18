@@ -3,11 +3,28 @@
 //Program: Sphero Bolt Testing
 //Bolt ID: CF6D
 
+/*
 async functions startProgram() {
 	await speak("Hello World", true);
 	setMainLed({r:0, g: 0, b: 255 });
 	setSpeed(60);
 	await delay (2);
 	setSpeed(0);
-	
 }
+*/
+
+
+//Square w/ diffrent colors for each line
+
+
+
+
+
+
+//Square w/ diffrent colors and sound for each line
+
+
+
+
+
+//Figure 8
