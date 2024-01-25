@@ -6,12 +6,13 @@ async function startProgram() {
 	
 //blue checpoint
 	await delay(1)
-	await roll(0,140,1)
+	await roll(0,145,1)
 	await delay (1)
 	await setMainLed({r:0,g:0,b:255})
 // first sound
+	await delay (1)
 	await roll(90,50,2)
-	
+	await Sound.Effects.Explosion.play(true)
 	
 }
 
