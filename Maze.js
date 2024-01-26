@@ -11,18 +11,18 @@ async function startProgram() {
 	await setMainLed({r:0,g:0,b:255})
 // first sound
 	await delay (1)
-	await roll(90,53,2)
+	await roll(90,50,2)
 	await Sound.Effects.Explosion.play(true)
 //red checkpoint
-	await roll(180,40,2)
+	await roll(180,50,2)
 	await delay(1)
-	await roll(220,41,2)
+	await roll(220,45,2)
 	await setMainLed({r:225,g:0,b:0})
 //sound two
 	await delay(1)
 	await roll(850,45,1)
 	await delay(2)
-	await roll(1200,50,1)
+	await roll(400,45,1)
 	await Sound.Animal.Eagle.play(true)
 	
 	
